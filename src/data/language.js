@@ -1,6 +1,12 @@
 const languague = {
     mainPage: {
-        developer: ['Desarrollador web y móvil', 'Mobile and web developer']
+        developer: ['Desarrollador web y móvil', 'Mobile and web developer'],
+        presentation: {
+            t1: [
+                'Soy un desarrollador activo desde 2017, me he enfocado en el desarrollo móvil y web usando tecnologías como Ionic Framework y React Native. Cuento certificado de Udemy en NodeJS, Angular, TypeScript, React, React Native, Ionic v3, y he usado estos conocimientos para crear mis propias aplicaciones que cuentan con miles de usuarios en todo el mundo.',
+                'I am an active developer since 2017, I have focused on mobile and web development using technologies like Ionic Framework and React Native. I have Udemy certified in NodeJS, Angular, TypeScript, React, React Native, Ionic v3, and I have used this knowledge to create my own applications that have thousands of users around the world.'
+            ]
+        }
     },
     navbarCmp: {
         about: ['Sobre mí', 'About me'],
@@ -34,8 +40,19 @@ const languague = {
                 'This is the version prior to 5.0.0 of the Lldm Hymnal that was published between 2017-2019, it is a hybrid application developed with IONIC 1. This version has been replaced by the current version developed in IONIC 3.'
             ]
         },
+        bib: {
+            t1: [
+                'Esta biblia fue desarrollada en 2017. Está publicada en',
+                'This bible was developed in 2017. It is published on the'
+            ],
+            t2: [
+                'y cuenta con más de 3.000 descargas. Ya que es una aplicación gratuita, decidí que tendría publicidad.',
+                'and it has more than 3.000 downloads. Being a free application, I decided that it would have advertising.'
+            ]
+        },
         db: ['Base de datos', 'Data Base'],
-        discontinued: ['Descontinuado', 'Discontinued']
+        discontinued: ['Descontinuado', 'Discontinued'],
+        bible: ['Santa Biblia', 'Holy Bible']
     }
 };
 

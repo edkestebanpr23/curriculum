@@ -16,14 +16,21 @@ const App = () => {
 
   return (
     <>
-      <NavBar className='fixed-top' ilang={ilang} setIlang={setIlang} onSetIlang={(i) => {
-        setIlang(i);
-        localStorage.setItem('ilang', i);
-      }} />
-      <Routes>
-        <Route path='/' element={<Main ilang={ilang} />} />
-        <Route path='/projects' element={<Project ilang={ilang} />} />
-      </Routes>
+      <div>
+        <div className='row'>
+          <NavBar ilang={ilang} setIlang={setIlang} onSetIlang={(i) => {
+            setIlang(i);
+            localStorage.setItem('ilang', i);
+          }} />
+        </div>
+        <div className='row'>
+          <Routes>
+            <Route path='/' element={<Main ilang={ilang} />} />
+            <Route path='/projects' element={<Project ilang={ilang} />} />
+          </Routes>
+        </div>
+
+      </div>
     </>
   );
 }
