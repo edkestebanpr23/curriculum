@@ -1,25 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react';
+import { Routes, Route } from "react-router";
 
-function App() {
+import NavBar from "./components/NavBar";
+
+import Main from "./pages/Main";
+import Project from "./pages/Project";
+
+const App = () => {
+  const [ilang, setIlang] = useState(0);
+
+  useEffect(() => {
+    let i = localStorage.getItem('ilang');
+    setIlang(parseInt(i))
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar className='fixed-top' ilang={ilang} setIlang={setIlang} onSetIlang={(i) => {
+        setIlang(i);
+        localStorage.setItem('ilang', i);
+      }} />
+      <Routes>
+        <Route path='/' element={<Main ilang={ilang} />} />
+        <Route path='/projects' element={<Project ilang={ilang} />} />
+      </Routes>
+    </>
   );
 }
 
