@@ -3,10 +3,11 @@ const languague = {
         developer: ['Desarrollador web y móvil', 'Mobile and web developer'],
         presentation: {
             t1: [
-                'Soy un desarrollador activo desde 2017, me he enfocado en el desarrollo móvil y web usando tecnologías como Ionic Framework y React Native. Cuento certificado de Udemy en NodeJS, Angular, TypeScript, React, React Native, Ionic v3, y he usado estos conocimientos para crear mis propias aplicaciones que cuentan con miles de usuarios en todo el mundo.',
-                'I am an active developer since 2017, I have focused on mobile and web development using technologies like Ionic Framework and React Native. I have Udemy certified in NodeJS, Angular, TypeScript, React, React Native, Ionic v3, and I have used this knowledge to create my own applications that have thousands of users around the world.'
+                'Soy estudiante de Ingeniería de Sistemas e Informática en la Universidad Nacional de Colombia, actualmente (2020) estoy en el noveno semestre, y soy un desarrollador activo desde 2017, me he enfocado en el desarrollo móvil y web usando tecnologías como Ionic Framework y React Native. Cuento certificado de Udemy en NodeJS, Angular, TypeScript, React, React Native, Ionic v3, y he usado estos conocimientos para crear mis propias aplicaciones que cuentan con miles de usuarios en todo el mundo.',
+                'I am a student of Systems Engineering and Informatics at the National University of Colombia, currently (2020) I am in the ninth semester, and I am an active developer since 2017, I have focused on mobile and web development using technologies like Ionic Framework and React Native. I have Udemy certified in NodeJS, Angular, TypeScript, React, React Native, Ionic v3, and I have used this knowledge to create my own applications that have thousands of users around the world.'
             ]
-        }
+        },
+        year: ['años', 'years old']
     },
     navbarCmp: {
         about: ['Sobre mí', 'About me'],

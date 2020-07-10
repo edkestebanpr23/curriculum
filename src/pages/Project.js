@@ -1,5 +1,4 @@
 import React from 'react';
-import NavBar from "../components/NavBar";
 import gifHV4a from "../media/video/HV4_0_30.gif";
 import gifHV4b from "../media/video/HV4_30_60.gif";
 import gifHV5a from "../media/video/HV5A.gif";

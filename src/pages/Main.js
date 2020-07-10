@@ -1,5 +1,4 @@
 import React from 'react';
-import NavBar from "../components/NavBar";
 import photo from "../media/img/photo.jpg";
 import { AiFillGithub, AiOutlineInstagram } from "react-icons/ai";
 import { FiMail } from "react-icons/fi";
@@ -26,7 +25,7 @@ const Main = ({ ilang }) => {
                 <h3 className='text-center mt-3'>Esteban Parra</h3>
                 <div>
                     <h4 className='text-center' style={{ color: color.grad[5] }}>{dic.developer[ilang]}</h4>
-                    <h5 className='text-center' style={{ color: color.grad[4] }}>23 años</h5>
+                    <h5 className='text-center' style={{ color: color.grad[4] }}>23 {dic.year[ilang]}</h5>
                     <h5 className='text-center' style={{ color: color.grad[4] }}>Medellín, Colombia</h5>
                     <br></br>
                     <div className='row'>
